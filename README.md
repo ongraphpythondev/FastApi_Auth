@@ -37,12 +37,21 @@ uvicorn main:app --reload
    2) User Login
    3) User Update
    4) User Profile
+   5) post create
+   6) post update
+   7) post delete
+   8) post show
 
 # Testing:
 registration/authentication : http://localhost:8000/user/signup <br>
 login/authentication : http://localhost:8000/user/login  <br>
-update/functionalities : http://localhost:8000/user/update  --- To update user detail must login first<br>
-profile/functionalities : http://localhost:8000/user/profile  --- To see profile user must login first<br>
+update/functionalities : http://localhost:8000/user/update  <br>
+profile/functionalities : http://localhost:8000/user/profile  <br>
+post/create : http://localhost:8000/post/insert <br>
+posts/allposts : http://localhost:8000/posts  <br>
+post/show post : http://localhost:8000/post/{id} <br>
+post/delete : http://localhost:8000/post/{id} <br>
+post/update : http://localhost:8000//post/update/{id} <br>
 
 # Format 
 * Registration : {<br>
